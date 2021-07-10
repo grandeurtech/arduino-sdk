@@ -56,6 +56,7 @@ class Grandeur::Project {
 
     // This method runs the SDK.
     void loop(bool valve);
+    void loop();
 
     #if DEBUG
     // Defines these when in debug mode.

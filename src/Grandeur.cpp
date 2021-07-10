@@ -55,3 +55,8 @@ void Grandeur::Project::loop(bool valve) {
   // Running duplex loop.
   _duplex->loop(valve);
 }
+
+void Grandeur::Project::loop() {
+  // Running duplex loop.
+  _duplex->loop(true);
+}
